@@ -1,5 +1,5 @@
 import 'package:sqlite3/sqlite3.dart';
-import '../../models/cart_item.dart';
+import '../../domain/cart_item.dart';
 
 class CartItemRepository {
   final Database _db;

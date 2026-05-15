@@ -1,5 +1,5 @@
 import 'package:sqlite3/sqlite3.dart';
-import '../../models/order.dart';
+import '../../domain/order.dart';
 
 class OrderRepository {
   final Database _db;

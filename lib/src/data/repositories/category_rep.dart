@@ -1,5 +1,5 @@
 import 'package:sqlite3/sqlite3.dart';
-import '../../models/category.dart';
+import '../../domain/category.dart';
 
 class CategoryRepository {
   final Database _db;

@@ -1,5 +1,5 @@
 import 'package:sqlite3/sqlite3.dart';
-import '../../models/user.dart';
+import '../../domain/user.dart';
 
 class UserRepository {
   final Database _db;
